@@ -1,0 +1,15 @@
+使用dev分支开发，完成后合并到master分支的操作过程
+git checkout -b dev (创建新分支)
+coding->commit-push dev (代码的更改都存在dev分支下)
+git checkout master (合并前，切换到主分支)
+git pull (拉一下)
+git checkout dev (切回dev)
+git merge master (合并，有冲突解决冲突)
+git commit (保存确认)
+git checkout master (切换回master)
+git merge dev --squash (分支合并)
+git commit
+git push origin
+————————————————
+版权声明：本文为CSDN博主「lanix516」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/lanix516/article/details/91868182
